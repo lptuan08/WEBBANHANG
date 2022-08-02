@@ -1,0 +1,24 @@
+* {
+    margin:0 auto;
+    padding: 0;
+
+}
+.container-image {
+    z-index: -20;
+    background: linear-gradient(to top right, #000099 15%, #91013aa6 101%);
+    height:100vh;
+    width:100vw;
+}
+.img {
+    width:200px;
+    height: 400px;
+    background-color: #ccc;
+
+}
+#hinhtron {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    position:absolute;
+  }

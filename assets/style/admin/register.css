@@ -1,0 +1,11 @@
+.grad{
+    background: linear-gradient(to top right, #000099 15%, #91013aa6 101%);
+  }
+
+.background-register {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
