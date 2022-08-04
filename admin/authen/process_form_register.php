@@ -24,7 +24,7 @@ if (!empty($_POST)){
             // từ thư viện getSecurityMD5 of utility.php
 			$pwd = getSecurityMD5($pwd);
             //chèn dữ liệu dùng thư viện đã viết bên dbhelper.
-			$sql = "insert into User (fullname, email, password, role_id, created_at, updated_at, deleted) values ('$fullname', '$email', '$pwd', 2, '$created_at', '$updated_at', 0)";
+			$sql = "insert into user (fullname, email, password, role_id, created_at, updated_at, deleted) values ('$fullname', '$email', '$pwd', 2, '$created_at', '$updated_at', 0)";
 			execute($sql);
 			header('Location: login.php');
 			die();
